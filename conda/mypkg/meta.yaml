@@ -1,0 +1,21 @@
+package:
+  name: mypkg
+  version: 0.0.0
+
+source:
+  path: ../../
+
+build:
+    number: 0
+
+requirements:
+  build:
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - cmake
+
+  host:
+    - occt
+
+about:
+  home:
