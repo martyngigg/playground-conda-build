@@ -15,8 +15,10 @@ requirements:
     - cmake
 
   host:
-    - libboost-devel {{ boost }}
     - occt
+
+  run:
+    - occt {{ occt }}
 
 about:
   home:
