@@ -17,4 +17,7 @@ llvm_openmp:                   # [osx]
 
 # Experimenting with how to include a build variant
 occt:
-  - '*=*novtk*'
+  - '7.8.1=*novtk*'
+
+boost:
+  - 1.85
